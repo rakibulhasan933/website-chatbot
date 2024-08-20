@@ -9,7 +9,7 @@ export default function Home() {
       <header className="px-4 lg:px-6 h-14 flex items-center">
         <Link href="#" className="flex items-center justify-center" prefetch={false}>
           <MountainIcon className="h-6 w-6" />
-          <span className="sr-only">Acme Chatbot</span>
+          <span className="sr-only">Super Chatbot</span>
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link href="#" className="text-sm font-medium hover:underline underline-offset-4" prefetch={false}>
@@ -35,7 +35,7 @@ export default function Home() {
                 <AvatarFallback>CB</AvatarFallback>
               </Avatar>
               <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Welcome to our Chatbot</h1>
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Welcome to our Super Chatbot</h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Get instant answers to your questions and personalized recommendations. Our chatbot is available 24/7
                   to assist you.
@@ -97,8 +97,8 @@ export default function Home() {
                     <AvatarFallback>JD</AvatarFallback>
                   </Avatar>
                   <div>
-                    <p className="text-sm font-medium">John Doe</p>
-                    <p className="text-sm text-muted-foreground">CEO, Acme Inc.</p>
+                    <p className="text-sm font-medium">Rakibul Hasan</p>
+                    <p className="text-sm text-muted-foreground">CEO, Super Chatbot Inc.</p>
                   </div>
                 </div>
               </Card>
@@ -129,8 +129,8 @@ export default function Home() {
                     <AvatarFallback>MJ</AvatarFallback>
                   </Avatar>
                   <div>
-                    <p className="text-sm font-medium">Michael Johnson</p>
-                    <p className="text-sm text-muted-foreground">Customer Support Manager, Acme Solutions</p>
+                    <p className="text-sm font-medium">Mohosina </p>
+                    <p className="text-sm text-muted-foreground">Customer Support Manager, Super Chatbot Solutions</p>
                   </div>
                 </div>
               </Card>
